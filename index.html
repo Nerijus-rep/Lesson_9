@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- main jquery libraries / others are at the bottom-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/jquery.min.js " type="text/javascript"></script>
+
+    <!-- google web font-->
+    <link href="https://fonts.googleapis.com/css?family=Amita|Lora|Prata" rel="stylesheet">
+
+
+    <!-- CSS style sheets-->
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Bootstrap style sheets-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <title>Gyvenimo aprašymas</title>
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top   visible-xs">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#profile" class="underline">Asmens informacija</a></li>
+                <li><a href="#work-experience" class="underline">Darbo patirtis</a></li>
+                <li><a href="#education" class="underline">Studijos</a></li>
+                <li><a href="#skills" class="underline">Įgūdžiai</a></li>
+                <li><a href="#languages" class="underline">Kalbų gebėjimai</a></li>
+                <li><a href="#interests" class="underline">Pomėgiai</a></li>
+                <li><a href="#contact" class="underline">Kontaktai</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end Navbar -->
+
+    <div class="container-fluid">
+
+        <!--Navigation-->
+        <div class="burger-menu hidden-xs" data-toggle="tooltip" data-placement="right" title="Rodyti / slėpti menu">
+            <span class="burger"></span>
+            <span class="burger"></span>
+            <span class="burger"></span>
+        </div>
+
+        <div class="navigation">
+            <nav class="spy  hidden-xs">
+                <ul>
+                    <li><a href="#profile" class="underline">Asmens informacija</a></li>
+                    <li><a href="#work-experience" class="underline">Darbo patirtis</a></li>
+                    <li><a href="#education" class="underline">Studijos</a></li>
+                    <li><a href="#skills" class="underline">Įgūdžiai</a></li>
+                    <li><a href="#languages" class="underline">Kalbų gebėjimai</a></li>
+                    <li><a href="#interests" class="underline">Pomėgiai</a></li>
+                    <li><a href="#contact" class="underline">Kontaktai</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- end Navigation -->
+
+        <!--Header -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-4">
+                        <div class="hexagon hexagon1">
+                            <div class="hexagon-in1">
+                                <div class="hexagon-in2"></div>
+                            </div>
+                        </div>
+                        <div class="shadow"></div>
+                        <span class="question"></span>
+                        <p class="intro">Sveiki, esu <span class="fat">Nerijus Plytninkas</span> pradedantysis
+                            <span class="rw-words rw-words-1">
+                                    <span>Front-End Programuotojas</span>
+                            <span>Front-End Programuotojas</span>
+                            <span>Front-End Programuotojas</span>
+                            </span>
+                        </p>
+                        <p class="intro-second">
+                            Mano tikslas - tapti profesionaliu programuotoju.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end Header -->
+
+        <!-- Profile -->
+        <div id="profile" class="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-6">
+                        <ul>
+                            <li class="title">Asmens informacija<span class="profile-icon title-icon"></span></li>
+                            <li>
+                                <p class="dark-txt">Vardas ir Pavardė<br>
+                                    <span class="light-txt">Nerijus Plytninkas</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="dark-txt">Gimęs<br>
+                                    <span class="light-txt">1979 kovo 05</span><br>
+                                    <span class="light-txt">Alytus, Lietuva</span>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="dark-txt">Facebook profilis<br>
+                                    <span class="light-txt"><a href="https://www.facebook.com/nerijus.plytninkas" target="blank" class="underline">www.facebook.com/nerijus.plytninkas</a></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="dark-txt">Linkedin profilis<br>
+                                    <span class="light-txt"><a href="https://www.linkedin.com/in/nerijus-plytninkas?trk=nav_responsive_tab_profile" target="blank" class="underline">www.linkedin.com/nerijus-plytninkas</a></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end Profile -->
+
+        <!-- Work experience -->
+        <div id="work-experience" class="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-6">
+                        <ul>
+                            <li class="title">Darbo patirtis<span class="work-experience-icon title-icon"></span></li>
+                            <li>
+                                <p class="dark-txt"> Nuo 1999 m. - iki dabar<br>
+                                    <span class="light-txt">Tarnyba Lietuvos Krašto apsaugoje<br>Karys</span><br>
+                                    <span class="dark-txt">Nuo 1999 m. iki dabar, tarnyba Lietuvos kariuomenės daliniuose.</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end Work experience -->
+
+        <!-- Education -->
+        <div id="education" class="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-6">
+                        <ul>
+                            <li class="title">Studijos<span class="education-icon title-icon"></span></li>
+                            <li>
+                                <p class="dark-txt">2016 m.<br>
+                                    <span class="light-txt">Front-end programuotojų kursai<br>"IT mokykla", Lietuva</span><br>
+                                    <span class="dark-txt">HTML/CSS/JavaScript pradmenys.<br>
+                                    Versijų kontrolės sistema Git.<br>
+                                    Programų kodo testavimas (debugging).<br>
+                                    Chrome naršyklės programuotojų įrankiai.<br>
+                                    Kodo funkcinis testavimas (unit testing).<br>
+                                    Projektų valdymo ir darbo projektuose metodikos Agile ir Scrum.</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="dark-txt">2013 m.<br>
+                                    <span class="light-txt">Kompiuterių naudotojo kursai pagal ECDL programą.<br>"Lietuvos kariuomenės mokykla", Lietuva</span><br>
+                                    <span class="dark-txt">Išlaikyti šių modulių testai:<br>
+                                ECDL modulis 1: Informacinių ir komunikacinių technologijų (IKT) pagrindai.<br>
+                                ECDL modulis 2: Naudojimasis kompiuteriu ir failų tvarkymas.<br>
+                                ECDL modulis 3: Tekstų tvarkymas.<br>
+                                ECDL modulis 4: Skaičiuoklės.<br>
+                                ECDL modulis 5: Duomenų bazės.<br>
+                                ECDL modulis 6: Pateiktys.<br>
+                                ECDL modulis 7: Naršymas žiniatinklyje ir komunikavimas.<br></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="dark-txt">2007 m. - 2011 m.<br>
+                                    <span class="light-txt">Programavimas kompiuteriams<br>"Alytaus kolegija", Informacijos ir ryšių technolohijų fakultetas, Lietuva</span><br>
+                                    <span class="dark-txt">Informatika, programavimas kompiuteriams, studijų programos specializacija - elektroninės komercijos technologijos</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end Education -->
+
+        <!-- Skills -->
+        <div id="skills" class="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-6">
+                        <ul>
+                            <li class="title">Įgūdžiai<span class="skills-icon title-icon"></span></li>
+                            <li>
+                                <p>HTML<span class="annotation pull-right">80%</span></p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 80%;">
+</div>
+</div>
+</li>
+<li>
+    <p>CSS<span class="annotation pull-right">60%</span></p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+            style="width: 60%;">
+</div>
+</div>
+</li>
+<li>
+    <p>JavaScript / jQuery<span class="annotation pull-right">40%</span></p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+            style="width: 40%;">
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- end Skills -->
+
+<!-- Languages -->
+<div id="languages" class="category">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-6">
+                <ul>
+                    <li class="title">Kalbų gebėjimai<span class="languages-icon title-icon"></span></li>
+                    <li>
+                        <p class="light-txt">Rusų kalba<br>
+                            <p><span class="light-txt">Supratimas<br>C1 lygis</span>
+                                <span class="dark-txt">Įgudęs vartotojas</span><br></p>
+                            <p><span class="light-txt">Kalbėjimas<br>B1 lygis</span>
+                                <span class="dark-txt">Pažengęs vartotojas</span><br></p>
+                            <span class="light-txt">Supratimas<br>A2 lygis</span>
+                            <span class="dark-txt">Pradedantysis vartotojas</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="light-txt">Anglų kalba<br>
+                            <p><span class="light-txt">Supratimas<br>C1 lygis</span>
+                            <span class="dark-txt">Įgudęs vartotojas</span><br></p>
+                           <p> <span class="light-txt">Kalbėjimas<br>B1 lygis</span>
+                            <span class="dark-txt">Pažengęs vartotojas</span><br></p>
+                            <span class="light-txt">Supratimas<br>A2 lygis</span>
+                            <span class="dark-txt">Pradedantysis vartotojas</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end Languages -->
+
+<!-- Interests -->
+<div id="interests" class="category">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-6">
+                <ul>
+                    <li class="title">Pomėgiai<span class="interests-icon title-icon"></span></li>
+                    <li>
+                        <p class="light-txt">IT technologijos<br>
+                            <span class="dark-txt">Domiuosi IT technologijomis, tiek technine, tiek programine įranga.<br>
+                                 Domina IT verslo galimybės, ateities vizijos, bei perspektyvos.</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="light-txt">Sportas<br>
+                            <span class="dark-txt">Labiau mėgstu veikti, nei žiūrėti, todėl neesu nei vienos sporto šakos
+                                    sirgalius, beabejo išskyrus olimpines varžybas ar čempionatus, kada reikia sirgti už Lietuvą, tada
+                                    taip, prisijungiu prie palaikančiųjų sportininkus kovoje.<br>
+                                    Mėgstu bėgioti, labai mėgstu plaukimą, bei kovines sporto šakas. 
+                                </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="light-txt">Muzika<br>
+                            <span class="dark-txt">Esu tikriausia vienas iš nedaugelio žmonių,
+                                    kuriems nemėgstamų muzikos žanrų nėra. Priklausomai nuo nuotaikos klausausi įvairią muziką. Klausausi visur, visada ir garsiai.<br>
+                                    Mėgstamiausias muzikos instrumentas, yra gitara, būtent ja, mokausi groti šiuo metu. </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end Interests -->
+
+<!-- Contact -->
+<div id="contact" class="category">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-6">
+                <ul>
+                    <li class="title">Kontaktai<span class="contact-icon title-icon"></span></li>
+                    <li>
+                        <p class="dark-txt">Adresas<br>
+                            <span class="light-txt">Jurgiškių 31 - 36, Alytus<br>Lietuva</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="dark-txt">Mobilaus telefono numeris<br>
+                            <span class="light-txt">+370 612 62244</span>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="dark-txt">Email<br>
+                            <span class="light-txt"><a href="mailto:nerijus.plytninkas@gmail.com" class="underline">nerijus.plytninkas@gmail.com</a></span>
+                        </p>
+                    </li>
+                    <li>
+                        <form method="post">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon transparent-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input name="yourname" type="text" class="form-control transparent-input" id="inputname" placeholder="Jūsų vardas">
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon transparent-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                <input name="email" type="email" class="form-control transparent-input" id="inputemail" placeholder="Jūsų elektroninis paštas">
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon transparent-addon"><span class="glyphicon glyphicon-bold"></span></span>
+                                <input name="subject" type="text" class="form-control transparent-input" id="inputsubject" placeholder="Tema">
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon transparent-addon"><span class="glyphicon glyphicon-comment"></span></span>
+                                <textarea name="comments" class="form-control transparent-input" id="inputmessage" rows="3" placeholder="Žinutė"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default btn-transparent pull-right">Siųsti</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end Contact -->
+
+</div>
+
+<!-- Java Script -->
+<script src="js/spy.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+
+</html>
